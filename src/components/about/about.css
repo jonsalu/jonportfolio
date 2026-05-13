@@ -1,0 +1,35 @@
+.about{
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-top: solid 2px white;
+    border-bottom: solid 2px white ;
+    padding-bottom: 50px ;
+    padding-top: 50px ;
+}
+
+.about-text{
+    width: 80%;
+    margin: 10px;
+}
+
+.about-text h3{
+    font-size: xx-large;
+}
+
+
+.about-text span{
+    color: var(--azulzin);
+    font-weight: 600;
+}
+
+
+
+.after-about{
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

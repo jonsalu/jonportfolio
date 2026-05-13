@@ -1,0 +1,53 @@
+
+
+.contato{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-top: solid 2px white;
+    border-bottom: solid 2px white ;
+    padding-bottom: 50px ;
+    padding-top: 50px ;
+}
+
+.contato-text{
+    width: 80%;
+    margin: 10px;
+}
+
+.contato-text h3{
+    font-size: xx-large;
+}
+
+
+.contato-text span{
+    color: var(--azulzin);
+    font-weight: 600;
+}
+
+
+
+.after-contato{
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.contato-text a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+
+
+

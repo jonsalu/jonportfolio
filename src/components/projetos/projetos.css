@@ -1,0 +1,135 @@
+.projetos{
+  width: 100%;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.projetos-intro{
+  max-width: 960px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.projetos-intro h3{
+  font-size: 1.8rem;
+  margin: 0;
+  font-weight: 500;
+}
+
+.projetos-intro p{
+  max-width: 780px;
+  margin: 14px auto 0;
+  line-height: 1.65;
+  color: #d9d9d9;
+  font-size: 0.95rem;
+}
+
+.after-projetos{
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 120px;
+  height: 3px;
+  margin: 10px auto 0;
+}
+
+.projetos-list{
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+.projeto-card{
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 24px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 300px;
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+  box-sizing: border-box;
+}
+
+.projeto-card:hover{
+  transform: translateY(-6px);
+  border-color: var(--azulzin);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+}
+
+.projeto-image{
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-bottom: 12px;
+}
+
+.projeto-image img{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+}
+
+.projeto-content h4{
+  margin: 0 0 8px;
+  font-size: 1rem;
+}
+
+.projeto-content p{
+  margin: 0;
+  line-height: 1.75;
+  color: #d2d2d2;
+  flex-grow: 1;
+}
+
+.projeto-link{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--azulzin);
+  color: var(--azulzin);
+  background: rgba(28, 132, 255, 0.08);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.projeto-link:hover{
+  background: rgba(28, 132, 255, 0.18);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 640px) {
+  .projetos{
+    padding: 25px 14px;
+  }
+
+  .projetos-intro h3{
+    font-size: 1.5rem;
+  }
+
+  .projeto-card{
+    min-height: auto;
+    padding: 14px;
+  }
+
+  .projeto-image img{
+    height: 130px;
+  }
+}
+

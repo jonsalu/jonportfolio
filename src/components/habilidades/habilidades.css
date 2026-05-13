@@ -1,0 +1,51 @@
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+
+}
+
+.titulo-habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   padding: 30px;
+}
+
+.titulo-habilidades h1{
+    margin: 0;
+    font-weight: 300;
+    color: white;
+}
+
+.skillsafter{
+    width: 300px;
+    height: 3px;
+    background-color: #ffffff;
+    margin-top: 1px;
+    border-radius: 2px;
+    border-radius: 50%;
+}
+
+.habilidades-cards{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.card-habilidade{
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    transition: 0.2s;
+}
+
+.card-habilidade:hover{
+    border: 2px solid black;
+    transform: translateY(-6px);
+}
