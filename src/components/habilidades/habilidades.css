@@ -49,3 +49,58 @@
     border: 2px solid black;
     transform: translateY(-6px);
 }
+
+/* Responsividade para mobile */
+@media (max-width: 768px) {
+    .habilidades {
+        padding-bottom: 30px;
+    }
+
+    .titulo-habilidades {
+        padding: 20px;
+    }
+
+    .titulo-habilidades h1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .skillsafter {
+        width: 200px;
+    }
+
+    .habilidades-cards {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding: 0 15px;
+    }
+
+    .card-habilidade {
+        width: 100%;
+        max-width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo-habilidades h1 {
+        font-size: 1.5rem;
+    }
+
+    .skillsafter {
+        width: 150px;
+    }
+
+    .card-habilidade {
+        padding: 15px;
+    }
+
+    .card-habilidade h3 {
+        font-size: 1.1rem;
+    }
+
+    .card-habilidade p {
+        font-size: 0.9rem;
+    }
+}

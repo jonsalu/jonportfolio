@@ -7,6 +7,7 @@
     border-bottom: solid 2px white ;
     padding-bottom: 50px ;
     padding-top: 50px ;
+    
 }
 
 .about-text{
@@ -32,4 +33,39 @@
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+/* Responsividade para mobile */
+@media (max-width: 768px) {
+    .about {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .about-text {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .about-text h3 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .about-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .about-text p {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
 }

@@ -28,7 +28,7 @@ const projetosData = [
   },
   {
     title: "Call Desk",
-    image: "/calendario.jfif",
+    image: "/call-desk.png",
     alt: "Call Desk",
     description:
       "Sistema de atendimento para controle de tickets, com fluxo de suporte e interface organizada para melhor produtividade.",
@@ -38,7 +38,7 @@ const projetosData = [
 
 const Projetos = () => {
   return (
-    <section className="projetos">
+    <section className="projetos" id="projetos">
       <div className="projetos-intro">
         <h3>Projetos em destaque</h3>
         <div className="after-projetos"></div>

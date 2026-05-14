@@ -4,6 +4,10 @@
 
 
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body{
   margin: 0 auto;
   padding: 0;
@@ -12,8 +16,29 @@ body{
   height: 100%;
   background: url("/public/background-prob.png") no-repeat center center fixed;
   background-size: cover;
+  scroll-behavior: smooth;
 }
 
 :root{
-  --azulzin: rgb(0, 0, 180);
+  --azulzin: rgb(0, 172, 224);
+}
+
+/* Responsividade geral */
+.app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Ajustes para dispositivos móveis */
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
 }

@@ -4,7 +4,7 @@ import Header from "../header/header";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home" id="home">
         
         
         <p>Olá,</p>
